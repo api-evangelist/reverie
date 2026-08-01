@@ -1,8 +1,25 @@
 aid: reverie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/reverie.png
 name: Reverie
-description: 'Reverie is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Reverie is an early-stage venture capital firm based in New York that invests
+  at the pre-seed and seed stages in crypto and web3 companies and protocols, describing
+  its work as crafting generational companies and protocols. Its portfolio spans blockchain
+  infrastructure, wallets and key management, DeFi, on-chain security, and trading, and
+  includes companies such as Blockaid, Keplr, Squads, Stride, Tensor, Geodnet, and Agora.
+  Reverie was surfaced through the Multicoin Capital portfolio and also produces The Archive
+  podcast. It is an investment firm rather than an API producer, so it publishes no public
+  API, SDKs, or developer documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/reverie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Crypto Web3
+- Venture Capital
+- Blockchain
+- DeFi
+- Investing
+- Web3
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/reverie-domain-security.yml
 - type: Website
   url: https://reverie.ooo
+- type: Blog
+  url: https://reverie.ooo/writing
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
